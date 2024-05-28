@@ -18,7 +18,7 @@ function Home() {
                 <Add setUploadVideoStatus={setUploadVideoStatus} />
             </div>
             <div>
-                <h3 style={{fontSize:"30px", cursor:"pointer"}} onClick= {() => navigateByUrl('/watch')}>Watch History</h3>
+                <h5 style={{fontSize:"26px", cursor:"pointer"}} onClick= {() => navigateByUrl('/watch')}>Watch History</h5>
             </div>
 
         </div>
